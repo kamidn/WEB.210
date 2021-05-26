@@ -1,0 +1,188 @@
+/* 
+	Student name:   Duy Nguyen
+	Date:	        04/07/2021
+	File:	        styles.css
+    Purpose:        Vicious Cycles Project
+*/
+
+/* Style for fluid image */
+img {
+	max-width: 100%;
+}
+
+/* Generic style for body */
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:link, :visited {
+	text-decoration: none;
+	counter-reset: #808080;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #000000;
+}
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: 1em;
+	text-align: left;
+	margin-top: 1em;
+}
+
+footer img {
+	max-height: 2em;
+}
+
+footer a:link, :visited{
+	text-decoration: none;
+	color: #808080;
+}
+
+footer a:hover{
+	text-decoration: underline;
+	color: #000000;
+}
+
+
+/* Style displays the mobile class */
+.mobile {
+	display: inline;
+}
+
+/* Style hides the desktop class */
+.desktop {
+	display: none;
+}
+
+/* Style for Heading 1 */
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+	text-align: left;
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+/* Style for Heading 2*/
+h2 {
+	font-size: 1em;
+	font-weight: bold;
+	text-align: left;
+	margin: 0;
+	border: 0;
+	padding: 0 .5em;
+}
+
+
+/* Styles for Mobile Layout */
+
+/* Style for the container centers the page and specifies the width */
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+header {
+	margin-top: 0.2em;
+	color: #010B5B;
+	text-align: left;
+}
+
+/* Style for the main specifies a block display, text properties, margins, padding, rounded corners, and borders  */
+main {
+	display: block;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 1em;
+	background-color: #D8E9F3;
+	border-top: solid 0.2em #4390BC; 
+	border-bottom: solid 0.2em #4390BC;
+}
+
+/* Style specifies padding and text alignment for section element to apply to mobile viewport */
+section { 
+	padding: 1%;
+	text-align: left;
+}
+
+/* Style specifies border, padding, margin and text alignment for article element to apply to mobile viewport */
+article { 
+	border-top: solid 0.2em #4390BC;
+	padding: 2%;
+	margin: 0.5%;
+	text-align: left;
+}
+
+/* Media query for tablet layout */ 
+
+@media only screen and (min-width: 426px) {
+
+/* Style specifies clear and margin for the main element */
+main {
+	clear: left;
+	margin-top: 4em;
+}
+
+/* Style hides the mobile class */
+.mobile {
+	display: none;
+}
+
+/* Style displays the desktop class */
+.desktop {
+	display: inline;
+}
+
+/* Style specifies background color for section element to apply to tablet viewport */
+section { 
+	background-color: #B2D3E6;
+}
+
+/* Specify styles for article element to apply to tablet viewport */
+article {
+	background-color: #D8E9F3;
+	border-top: 0;
+	border-radius: 0em 0em 0em 3em;
+	margin-bottom: 1em;
+}
+article img {
+	width: 100%;
+	margin: 0.5em;
+}
+
+}
+
+/* Media query for desktop layout */
+@media only screen and (min-width: 769px) {
+ 
+/* Style specifies width for container */ 
+#container {
+	width: 80%;
+}
+
+article img {
+	float: left;
+	width: 40%;
+	margin: 0.5em;
+}
+
+/* Style specifies border, box shadow, and margins for the main element */
+main {
+	border-style: none;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+/* Style specifies left and right padding for paragraph elements within the main element */
+main p {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+}
