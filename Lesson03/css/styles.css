@@ -1,9 +1,11 @@
 /* 
 	Student name:   Duy Nguyen
-	Date:	        05/26/2021
+	Date:	        06/01/2021
 	File:	        styles.css
-    Purpose:        Lesson 02 - Assignment
+    Purpose:        Lesson 03 - Assignment
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 /* Style for fluid image */
 img {
@@ -12,7 +14,8 @@ img {
 
 /* Generic style for body */
 body {
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	/* font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+	font-family: 'Raleway', sans-serif;
 }
 
 a:link, :visited {
