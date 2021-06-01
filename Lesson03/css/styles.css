@@ -113,6 +113,7 @@ main {
 section { 
 	padding: 1%;
 	text-align: left;
+	margin-top: 1em;
 }
 
 /* Style specifies border, padding, margin and text alignment for article element to apply to mobile viewport */
