@@ -1,0 +1,63 @@
+body {
+	margin: 0;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+	font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+/*--------------------------------------------------------------
+General styling
+--------------------------------------------------------------*/
+
+.site {
+	margin: 1em;
+}
+
+.masthead,
+.page-title,
+.main-content,
+.sidebar,
+.footer-content {
+	padding: 1em;
+	color: white;
+}
+
+.masthead {
+	background-color: #b46ae3;
+}
+
+.page-title {
+	background-color: #51a7fa;
+}
+
+.main-content {
+	background-color: #70bf40;
+}
+
+.sidebar {
+	background-color: #f49018;
+}
+
+.footer-content {
+	background-color: #0265c0;
+}

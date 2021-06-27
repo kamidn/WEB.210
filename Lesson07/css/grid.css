@@ -1,0 +1,41 @@
+@supports (grid-area: auto) {
+	@media screen and (min-width: 50em) {
+		.site {
+			max-width: none;
+			display: grid;
+			grid-template-columns: 15em auto;
+		}
+
+		.masthead {
+			grid-column: 1/2;
+		}
+
+		.menu {
+			grid-column: 2/3;
+		}
+
+		.footer-content {
+			grid-column: 1/3;
+		}
+	}
+
+	.masthead {
+		grid-area: masthead;
+	}
+
+	.page-title {
+		grid-area: title;
+	}
+
+	.main-content {
+		grid-area: main;
+	}
+
+	.sidebar {
+		grid-area: sidebar;
+	}
+
+	.footer-content {
+		grid-area: footer;
+	}
+}
