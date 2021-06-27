@@ -41,11 +41,17 @@ nav {
     background-color: #fff;
 }
 
-/*Footer styles*/
+/* Header's styles */
+header {
+	margin-top: 0.2em;
+	color: #010B5B;
+	text-align: left;
+}
+
+/* Footer styles */
 footer {
 	font-size: 1em;
 	text-align: left;
-	margin-top: 1em;
 }
 
 footer img {
@@ -83,6 +89,28 @@ h2 {
 	padding: 0 .5em;
 }
 
+/* Buckets section */
+
+.buckets {
+	padding: 1em 1em 1em;
+	background: #3E454C;
+}
+
+.buckets ul {
+	margin: 0;
+	padding: 0;
+}
+
+.buckets li {
+	margin-bottom: 1em;
+	background: white;
+	list-style-type: none;
+}
+
+.bucket {
+	padding: 1.5em;
+}
+
 .site {
 	margin: 1em;
 }
@@ -97,7 +125,8 @@ h2 {
 }
 
 .header-area {
-	background-color: #b46ae3;
+	/*background-color: #b46ae3;*/
+	background-color: none;
 }
 
 .menu-area {
