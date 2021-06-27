@@ -20,7 +20,7 @@ nav {
     position: relative;
 }
 
-.menu a {
+.menu a, {
     display: block;
     padding: 3px;
     color: #010B5B;
@@ -30,42 +30,5 @@ nav {
 
 .menu a:hover {
     color: #010B5B;
-    background-color: none;
     text-decoration: underline;
-}
-
-.menu ul {
-    list-style: none;
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    display: none;
-}
-
-.menu ul li {
-    padding-top: 1px;
-    float: none;
-}
-
-.menu ul a {
-    white-space: nowrap;
-}
-
-.menu li:hover ul {
-    display: block;
-}
-
-.menu li:hover a { 
-    background-color: none;
-    text-decoration: underline;
-}
-
-.menu li:hover ul a { 
-    background-color: #4390BC;
-    text-decoration: none;
-}
-
-.menu li:hover ul li a:hover { 
-    color: #010B5B;
-    background-color: #D8E9F3;
 }
