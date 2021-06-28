@@ -3,6 +3,7 @@
 body {
 	margin: 0;
 	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
 }
 
 body,
@@ -27,10 +28,12 @@ p {
 	margin-bottom: 1.5em;
 }
 
-footer img {
-	max-height: 2em;
+img {
+	display: block;
+	border: 0;
+	width: 100%;
+	height: auto;
 }
-
 /*--------------------------------------------------------------
 General styling
 --------------------------------------------------------------*/
@@ -55,6 +58,8 @@ footer {
 }
 
 footer img {
+	display: inline;
+	width: auto;
 	max-height: 2em;
 }
 
@@ -76,7 +81,6 @@ h1 {
 	margin: 0;
 	border: 0;
 	padding: 0;
-	text-shadow: 4px 4px 4px #aaa;
 }
 
 /* Style for Heading 2*/
@@ -89,28 +93,6 @@ h2 {
 	padding: 0 .5em;
 }
 
-/* Buckets section */
-
-.buckets {
-	padding: 1em 1em 1em;
-	background: #3E454C;
-}
-
-.buckets ul {
-	margin: 0;
-	padding: 0;
-}
-
-.buckets li {
-	margin-bottom: 1em;
-	background: white;
-	list-style-type: none;
-}
-
-.bucket {
-	padding: 1.5em;
-}
-
 .site {
 	margin: 1em;
 }
@@ -121,7 +103,6 @@ h2 {
 .main-area,
 .footer-area {
 	padding: 1em;
-	color: white;
 }
 
 .header-area {
@@ -130,11 +111,13 @@ h2 {
 }
 
 .menu-area {
-	background-color: #f49018;
+	/*background-color: #f49018;*/
+	background-color: #B2D3E6;
 }
 
 .sidebar-area {
-	background-color: #dc143c;
+	/*background-color: #dc143c;*/
+	background-color: #B2D3E6;
 }
 
 .main-area {
@@ -142,5 +125,6 @@ h2 {
 }
 
 .footer-area {
-	background-color: #0265c0;
+	/*background-color: #0265c0;*/
+	background-color: none;
 }
