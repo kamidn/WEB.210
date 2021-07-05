@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <!-- 
-	Student name:   Duy Nguyen
-	Date:			07/04/2021
-	File:			index.html
-	Purpose:		Lesson 08 - Assignment
+  Student name:   Duy Nguyen
+	Date:	          06/28/2021
+	File:	          index.html
+  Purpose:        Lesson 07 - Assignment
 -->
 <html lang="en">
 	<head>
@@ -11,47 +11,169 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./css/main.css" />
 		<link rel="stylesheet" href="./css/nav.css" />
-
+		<link rel="stylesheet" href="./css/grid.css" />
 		<title>Duy Nguyen's Portfolio</title>
 	</head>
 
-	<body>
-		<div class="page">
-			<header tabindex="0" class="header-area">
-				<h1>Duy Nguyen</h1>
-				<h2>Web Developer Student at WakeTech</h2>
-			</header>
-			<div id="nav-container">
-				<div class="bg"></div>
-				<div class="button" tabindex="0">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</div>
-				<div id="nav-content" tabindex="0">
-					<ul>
-						<li><a href="#0">Home</a></li>
-						<li><a href="#0">Services</a></li>
-						<li><a href="#0">Blog</a></li>
-						<li><a href="#0">About</a></li>
-						<li><a href="#0">Contact</a></li>
-					</ul>
-				</div>
+	<body class="site">
+		<header class="header-area">
+			<h1>Duy Nguyen</h1>
+			<h2>Web Developer Student at WakeTech</h2>
+		</header>
+		<nav id="nav-container"  class="menu-area">
+			<div class="bg"></div>
+			<div class="button" tabindex="0">
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
 			</div>
-
-			<main>
-				<div class="content">
-					<h2>
-						Off-screen navigation using <span>:focus-within</span>
-					</h2>
-					<p>
-						Adding yet another pure CSS technique to the list of
-						off-screen navigation by "hacking" the :focus-within
-						pseudo-class. Have a look at the code to see how it
-						works.
-					</p>
-				</div>
-			</main>
-		</div>
+			<div id="nav-content" tabindex="0">
+			  <ul>
+				<li><a href="#0">Home</a></li>
+				<li><a href="#0">About</a></li>
+				<li><a href="#0">Design</a></li>
+				<li><a href="#0">Work Experience</a></li>
+				<li><a href="#0">Contact</a></li>
+			  </ul>
+			</div>
+		</nav>
+		<main id="content" class="main-area">
+			<ul class="cards">
+				<li class="card">
+					<a href="#">
+						<figure class="card">
+							<img
+								src="./images/thumb_web110.jpg"
+								alt="WEB110 Project"
+							/>
+							<figcaption class="caption">
+								<h3 class="caption-title">WEB110 Project</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="card">
+					<a href="#">
+						<figure class="card">
+							<img
+								src="./images/thumb_web115.jpg"
+								alt="WEB115 Project"
+							/>
+							<figcaption class="caption">
+								<h3 class="caption-title">WEB115 Project</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="card">
+					<a href="#">
+						<figure class="card">
+							<img
+								src="./images/lines.jpg"
+								alt="Lines on a tropical leaf."
+							/>
+							<figcaption class="caption">
+								<h3 class="caption-title">Dummy #1</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="card">
+					<a href="#">
+						<figure class="card">
+							<img
+								src="images/nerve.jpg"
+								alt="Leaves of the Nerve Plant."
+							/>
+							<figcaption class="caption">
+								<h3 class="caption-title">Dummy #2</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="card">
+					<a href="#">
+						<figure class="card">
+							<img
+								src="images/tree.jpg"
+								alt="The silhouette of a tree during sundown."
+							/>
+							<figcaption class="caption">
+								<h3 class="caption-title">Dummy #3</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="card">
+					<a href="#">
+						<figure class="card">
+							<img
+								src="images/blocks.jpg"
+								alt="Classic wooden letter blocks."
+							/>
+							<figcaption class="caption">
+								<h3 class="caption-title">Dummy #4</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="card">
+					<a href="#">
+						<figure class="card">
+							<img
+								src="images/fjord.jpg"
+								alt="Sundown over the Oslo fjord."
+							/>
+							<figcaption class="caption">
+								<h3 class="caption-title">Dummy #5</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="card">
+					<a href="#">
+						<figure class="card">
+							<img
+								src="images/grass.jpg"
+								alt="A baby sits on a carpet in the grass."
+							/>
+							<figcaption class="caption">
+								<h3 class="caption-title">Dummy #6</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</li>
+			</ul>
+		</main>
+		<aside class="sidebar-area">
+			<div class="twin">
+				<h2 class="content-title">My Github</h2>
+				<p>
+					View selected projects below. More information can be found
+					at
+					<a href="https://github.com/kamidn" target="_blank"
+						>My Github</a
+					>.
+				</p>
+			</div>
+		</aside>
+		<footer class="footer-area">
+			<p>
+				<a href="mailto:dtnguyen7@my.waketech.edu"
+					>dtnguyen7@my.waketech.edu</a
+				><br />
+				<a href="https://dtnguyen7.wordpress.com/" target="_blank"
+					><img
+						src="./images/wordpress_logo.png"
+						alt="Wordpress Logo"
+				/></a>
+				<a href="https://www.twitter.com" target="_blank"
+					><img src="./images/twitter_logo.png" alt="Twitter Logo"
+				/></a>
+				<a href="https://www.facebook.com" target="_blank"
+					><img src="./images/facebook_logo.png" alt="Facebook Logo"
+				/></a>
+			</p>
+		</footer>
 	</body>
 </html>
