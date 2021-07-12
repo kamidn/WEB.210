@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<!-- 
+	Student name:	Duy Nguyen
+	Date:			07/12/2021
+	File:			index.html
+	Purpose:		Lesson 09 - Build image galery by using Bootstrap
+-->
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<title>My Gallery</title>
+
+		<!-- Font Awesome icons script -->
+		<script
+			src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+			data-auto-a11y="true"
+		></script>
+
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+		<link href="./css/styles.css" rel="stylesheet" />
+	</head>
+	<body>
+		<!-- Responsive navbar-->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid px-5">
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<a class="navbar-brand" href="#">My Portfolio</a>
+				<div
+					class="collapse navbar-collapse"
+					id="navbarSupportedContent"
+				>
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link" href="#!">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#!">Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link active"
+								aria-current="page"
+								href="#"
+								>Gallery</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Credit</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- Page Content-->
+		<div class="container-fluid container-lg px-4 px-lg-5">
+			<!-- Heading Row-->
+			<header></header>
+			<!-- Content Row-->
+			<section id="accordionView">
+				<div class="accordion accordion-flush m-2 p-2 border">
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="flush-headingOne">
+							<button
+								class="accordion-button collapsed"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#flush-collapseOne"
+								aria-expanded="false"
+								aria-controls="flush-collapseOne"
+							>
+								Lorem Ipsum #1
+							</button>
+						</h2>
+						<div
+							id="flush-collapseOne"
+							class="accordion-collapse collapse"
+							aria-labelledby="flush-headingOne"
+							data-bs-parent="#accordionFlushExample"
+						>
+							<div class="accordion-body">
+								Lorem ipsum dolor sit amet, consectetur
+								adipiscing elit. Vestibulum maximus, enim non
+								aliquam viverra, elit nibh volutpat nibh, eget
+								luctus nulla velit et nibh. In nec lectus
+								sapien. Praesent molestie aliquet dolor in
+								ultrices. Pellentesque habitant morbi tristique
+								senectus et netus et malesuada fames ac turpis
+								egestas. Fusce et blandit metus, vel eleifend
+								eros. Donec vulputate fermentum euismod. Aliquam
+								erat volutpat. Vestibulum sodales, nisl ut
+								interdum congue, orci purus condimentum lectus,
+								at congue urna odio quis elit. Phasellus quis
+								purus efficitur, feugiat justo eget, sagittis
+								dui. Fusce non consequat ipsum. Mauris ac
+								posuere elit. Pellentesque varius at elit nec
+								finibus. Nulla viverra mauris quis mi tincidunt,
+								ut tincidunt eros pellentesque. Fusce ac
+								dignissim nunc. Nunc ornare pretium faucibus.
+								Pellentesque non tortor sed lacus egestas
+								tincidunt sit amet id lacus.
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="flush-headingTwo">
+							<button
+								class="accordion-button collapsed"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#flush-collapseTwo"
+								aria-expanded="false"
+								aria-controls="flush-collapseTwo"
+							>
+								Lorem Ipsum #2
+							</button>
+						</h2>
+						<div
+							id="flush-collapseTwo"
+							class="accordion-collapse collapse"
+							aria-labelledby="flush-headingTwo"
+							data-bs-parent="#accordionFlushExample"
+						>
+							<div class="accordion-body">
+								Lorem ipsum dolor sit amet, consectetur
+								adipiscing elit. Phasellus nec vehicula lorem.
+								Nulla purus tellus, volutpat in sapien vel,
+								euismod tristique quam. Vivamus pellentesque
+								porttitor sem, et pellentesque mi porta vitae.
+								In tellus velit, dictum vel ligula id, dignissim
+								pharetra lacus. Nunc porttitor tristique nulla,
+								eget tincidunt ipsum dignissim eu. Orci varius
+								natoque penatibus et magnis dis parturient
+								montes, nascetur ridiculus mus. Quisque ac
+								ligula sed nulla viverra mollis et et lacus.
+								Vivamus vestibulum libero non mauris fermentum
+								auctor. Aliquam facilisis nibh nec nisl
+								venenatis ullamcorper. Curabitur ac quam vel
+								ipsum gravida ultrices. Duis volutpat ante diam,
+								non venenatis justo hendrerit eu. Sed convallis
+								tellus quis elit sodales, vel auctor eros
+								maximus. Mauris ac ligula et ex condimentum
+								convallis nec maximus enim.
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="flush-headingThree">
+							<button
+								class="accordion-button collapsed"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#flush-collapseThree"
+								aria-expanded="false"
+								aria-controls="flush-collapseThree"
+							>
+								Lorem Ipsum #3
+							</button>
+						</h2>
+						<div
+							id="flush-collapseThree"
+							class="accordion-collapse collapse"
+							aria-labelledby="flush-headingThree"
+							data-bs-parent="#accordionFlushExample"
+						>
+							<div class="accordion-body">
+								Lorem ipsum dolor sit amet, consectetur
+								adipiscing elit. Pellentesque pellentesque
+								finibus urna, sed consectetur nibh placerat sit
+								amet. Praesent malesuada, tellus sed lacinia
+								semper, lacus ligula congue velit, nec bibendum
+								turpis libero vel ex. Suspendisse vitae erat in
+								eros interdum viverra a vel tortor. Praesent
+								egestas velit quis felis pulvinar, et vehicula
+								lacus semper. Integer viverra, arcu non lobortis
+								rutrum, tortor ipsum semper tellus, vitae
+								posuere est leo ut orci. Praesent at nunc
+								laoreet, fermentum nibh vitae, pulvinar libero.
+								Suspendisse at sagittis augue. Etiam ultricies
+								odio in auctor luctus. Maecenas vel felis magna.
+								Nulla eu placerat odio, in varius turpis.
+								Praesent lacinia est a lectus venenatis
+								facilisis.
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="cardView" class="m-2 p-2 border">
+				<div class="row g-3">
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="card">
+							<picture>
+								<source
+									media="(max-width: 768px)"
+									srcset="images/sakura_blossom_sm.jpg"
+								/>
+								<source
+									media="(max-width: 992px)"
+									srcset="images/sakura_blossom_md.jpg"
+								/>
+								<source srcset="images/sakura_blossom_lg.jpg" />
+								<img
+									class="img-fluid img-thumbnail card-img-top"
+									src="images/sakura_blossom_lg.jpg"
+									alt="Cherry's Blossoms"
+								/>
+							</picture>
+							<div class="card-body">
+								<h5 class="card-title">Cherry's Blossoms</h5>
+							</div>
+							<div class="card-footer">
+								<a class="btn btn-primary btn-sm" href="#"
+									>More Info</a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="card">
+							<picture>
+								<source
+									media="(max-width: 768px)"
+									srcset="images/koi_fish_sm.jpg"
+								/>
+								<source
+									media="(max-width: 992px)"
+									srcset="images/koi_fish_md.jpg"
+								/>
+								<source srcset="images/koi_fish_lg.jpg" />
+								<img
+									class="img-fluid img-thumbnail card-img-top"
+									src="images/koi_fish_lg.jpg"
+									alt="Koi fish"
+								/>
+							</picture>
+							<div class="card-body">
+								<h5 class="card-title">Koi fish</h5>
+							</div>
+							<div class="card-footer">
+								<a class="btn btn-primary btn-sm" href="#"
+									>More Info</a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="card">
+							<picture>
+								<source
+									media="(max-width: 768px)"
+									srcset="images/maple_tree_sm.jpg"
+								/>
+								<source
+									media="(max-width: 992px)"
+									srcset="images/maple_tree_md.jpg"
+								/>
+								<source srcset="images/maple_tree_lg.jpg" />
+								<img
+									class="img-fluid img-thumbnail card-img-top"
+									src="images/maple_tree_lg.jpg"
+									alt="Koi fish"
+								/>
+							</picture>
+							<div class="card-body">
+								<h5 class="card-title">Maple tree</h5>
+							</div>
+							<div class="card-footer">
+								<a class="btn btn-primary btn-sm" href="#"
+									>More Info</a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="card">
+							<picture>
+								<source
+									media="(max-width: 768px)"
+									srcset="images/traditional_house_sm.jpg"
+								/>
+								<source
+									media="(max-width: 992px)"
+									srcset="images/traditional_house_md.jpg"
+								/>
+								<source
+									srcset="images/traditional_house_lg.jpg"
+								/>
+								<img
+									class="img-fluid img-thumbnail card-img-top"
+									src="images/traditional_house_lg.jpg"
+									alt="Japanese traditional houses in winter"
+								/>
+							</picture>
+							<div class="card-body">
+								<h5 class="card-title">Traditional houses</h5>
+							</div>
+							<div class="card-footer">
+								<a class="btn btn-primary btn-sm" href="#"
+									>More Info</a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="card">
+							<picture>
+								<source
+									media="(max-width: 768px)"
+									srcset="images/wind_chimes_sm.jpg"
+								/>
+								<source
+									media="(max-width: 992px)"
+									srcset="images/wind_chimes_md.jpg"
+								/>
+								<source srcset="images/wind_chimes_lg.jpg" />
+								<img
+									class="img-fluid img-thumbnail card-img-top"
+									src="images/wind_chimes_lg.jpg"
+									alt="Wind chimes"
+								/>
+							</picture>
+							<div class="card-body">
+								<h5 class="card-title">Wind chimes</h5>
+							</div>
+							<div class="card-footer">
+								<a class="btn btn-primary btn-sm" href="#"
+									>More Info</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- Footer-->
+		<footer class="py-2 bg-dark text-light d-flex">
+			<div class="container-fluid px-5">
+				<section class="social-icons">
+					<a
+						href="mailto:dtnguyen7@my.waketech.edu"
+						class="social-icon text-light mx-2"
+						><i class="fas fa-envelope"></i
+					></a>
+					<a
+						href="https://github.com/kamidn"
+						class="social-icon text-light mx-2"
+						><i class="fab fa-github"></i
+					></a>
+					<a
+						href="https://www.facebook.com"
+						class="social-icon text-light mx-2"
+						><i class="fab fa-facebook"></i
+					></a>
+					<a
+						href="https://dtnguyen7.wordpress.com/"
+						class="social-icon text-light mx-2"
+						><i class="fab fa-wordpress"></i
+					></a>
+				</section>
+			</div>
+		</footer>
+		<!-- Bootstrap core JS-->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
